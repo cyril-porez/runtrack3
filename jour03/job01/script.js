@@ -1,6 +1,10 @@
-jQuery(document).ready(function(){
-    jQuery('#button').on('click', function() {
+$(document).ready(function(){
+    $("p").hide()
+    $('#button').click( function() {
         //toggle est une fonction qui permet de cacher et afficher
-        jQuery("p").toggle()
+        $("p").show()
+    })
+    $('#button2').click( function() {
+        $("html").hide()
     })
 })
