@@ -13,22 +13,22 @@ jQuery(document).ready(function() {
            
         }
         $("#arc1").click(function(){
-            $("#arc1").detach().appendTo("#rangees")
+            $("#arc1").detach().append("#rangees")
         })
         $("#arc2").click(function() {
-            $("#arc2").detach().appendTo("#rangees")
+            $("#arc2").detach().append("#rangees")
         })
         $("#arc3").click(function() {
-            $("#arc3").detach().appendTo("#rangees")
+            $("#arc3").detach().append("#rangees")
         })
         $("#arc4").click(function() {
-            $("#arc4").detach().appendTo("#rangees")
+            $("#arc4").detach().append("#rangees")
         })
         $("#arc5").click(function() {
-            $("#arc5").detach().appendTo("#rangees")
+            $("#arc5").detach().append("#rangees")
         })
         $("#arc6").click(function() {
-            $("#arc6").detach().appendTo("#rangees")
+            $("#arc6").detach().append("#rangees")
         })
     })
 
