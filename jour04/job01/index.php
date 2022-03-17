@@ -10,6 +10,9 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="button">Click ici</button>
+    <main>
+
+        <button id="button">Click ici</button>
+    </main>
 </body>
 </html>
