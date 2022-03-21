@@ -1,0 +1,52 @@
+@media screen and (min-width: 1600px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .section {
+        background-color: #88c1d0;
+        width: 350px;
+        height: 160px;
+        margin-top: 20px;
+    
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1599px) {
+    body {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .section {
+        background-color: #88c1d0;
+        width: 350px;
+        height: 160px;
+        margin-top: 20px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+
+    }
+
+    .section {
+        background-color: #88c1d0;
+        width: 350px;
+        height: 160px;
+        margin-top: 20px;
+    
+    }
+    
+}
